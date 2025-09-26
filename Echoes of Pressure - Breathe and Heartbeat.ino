@@ -59,7 +59,7 @@ void loop() {
     }
 
   } else {
-    // Wave effect when pressure is 888 or higher
+    // Wave effect when pressure is 777 or higher
     for (int i = 0; i < numLEDs; i++) {
       // Turn off all LEDs first
       for (int j = 0; j < numLEDs; j++) fadeLED(ledPins[j], 0);
